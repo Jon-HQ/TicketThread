@@ -1,5 +1,6 @@
 Created by [Vega](https://twitter.com/cryptovega_) and [Jon_HQ](https://twitter.com/jon_hq)
 
+To invite the bot follow this link: [Public bot](https://discord.com/api/oauth2/authorize?client_id=993570644665053306&permissions=362924854336&scope=bot%20applications.commands)
 
 **Installation**
 
@@ -12,7 +13,8 @@ Created by [Vega](https://twitter.com/cryptovega_) and [Jon_HQ](https://twitter.
 7. Go to the Discord Developer Portal > OAuth2 > URL Generator
 8. Then select `bot` & `applications.commands` ![image](https://user-images.githubusercontent.com/92063473/174148293-40d1c6d3-8f88-4729-a271-c10d317ddeb5.png)
 9. Finally select the permissions `Read Messages/View Channel` `Send Messages` `Create Private Threads` `Send Messages in Threads` ` Manage Threads` `Use Slash Commands`![image](https://user-images.githubusercontent.com/92063473/174148751-87ea9605-0c3c-4dc0-a5e8-981f6db06ec4.png)
-10. To invite the bot copy the url it has generated ![image](https://user-images.githubusercontent.com/92063473/174149017-3459d9b7-2742-4b1f-ab44-8ec6e77cf421.png)
+10. Bot will additionally need embed links/add reactions.
+11. To invite the bot copy the url it has generated ![image](https://user-images.githubusercontent.com/92063473/174149017-3459d9b7-2742-4b1f-ab44-8ec6e77cf421.png)
 
 **Running the bot**
 
