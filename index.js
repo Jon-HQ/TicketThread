@@ -111,7 +111,6 @@ client.on('interactionCreate', async (interaction) => {
        .replace('>', '');
        
       console.log('UserID', userID);
-      console.log(interaction.channel.messages.cache.first().embeds[0].description.match(MessageMentions.USERS_PATTERN).at(0));
       const member = await interaction.guild.members.fetch(userID);
       console.log('member', member);
       const channel = interaction.guild.channels.cache.find((c) => c.name === member.user.username && !c.archived);
