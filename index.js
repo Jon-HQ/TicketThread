@@ -57,6 +57,7 @@ client.on('interactionCreate', async (interaction) => {
         interaction.channel.threads
           .create({
             name: interaction.user.username,
+            inviteable: false,
             autoArchiveDuration: 1440,
             type: 'GUILD_PRIVATE_THREAD',
             reason: `Created a ticket for user ${interaction.user.username}`,
